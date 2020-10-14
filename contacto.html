@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Contacto</title>
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body class="body">
+
+	<main id="wrapper">
+		<header class="header">
+			<div class="logo">
+				<h1 class="titulo1">Bygone Society</h1>
+			</div>
+		</header>
+
+		<nav class="navbar">
+			<a href="nosotros.html" class="links">Nosotros</a>
+			<a href="#" class="links">Productos</a>
+			<a href="contacto.html" class="links">Contacto</a>
+		</nav>
+
+		<section id="content">
+            <div class="breadcrumb">
+                <a href="index.html" >Home</a> /Contacto
+            </div>
+            
+        <ul>
+            <h3>
+            <li><a href="https://www.facebook.com/groups/bygonesociety/"class="links">Grupo Facebook </a> </li>
+            <br>
+            <li><a href="https://www.facebook.com/bygonesociety/" class="links">Página Facebook </a> </li>
+            <br>
+            <li><a href="https://www.instagram.com/bygonesociety/" class="links">Instagram </a> </li>
+            <br>
+            <li><a href="mailto:ladiesgentlemenarg@gmail.com?Subject=Nuevo correo desde el sitio">Email</a></li>
+            <br>
+            <li><a href="https://www.youtube.com/channel/UCv-3htsDW86cwDNwnGo3mLA?view_as=subscriber" class="links">Youtube </a> </li>
+        </h3>
+        </ul>
+
+        <div class="container">
+            <form action="action_page.php">
+          
+              <label for="fname">Nombre</label>
+              <input type="text" id="fname" name="nombre" placeholder="Tu nombre...">
+          
+              <label for="lname">Apellido</label>
+              <input type="text" id="lname" name="apellido" placeholder="Apellido...">
+          
+                     
+              <label for="Consulta">Consulta</label>
+              <textarea id="consulta" name="consulta" placeholder="Escribe algo" style="widows: 100%;"></textarea>
+          
+              <input type="enviar" value="Enviar">
+          
+            </form>
+          </div>
+          <h2>Contacto</h2>
+
+          <form action="mailto:mail@mail.com" method="POST">
+            
+            <div>
+              Nombre
+              <input type="text" name="nombre" placeholder="aca va tu nombre">
+            </div>
+            <div>
+              <label for='campoNombre'>Email</label>
+              <input type="email" name="email" id='campoNombre'>
+            </div>
+            <div>
+              <label>
+                Fecha de Nacimiento
+                <input type="date" name="fechaNac">
+              </label>
+            </div>
+            <!-- <div>
+              Password
+              <input type="password" name="password" id="">
+            </div> -->
+    
+            <div class="checkbox">
+              <h3>Secciones Favoritas</h3>
+              <label>
+                Deportes
+                <input type="checkbox" name="deportes" value='ok'>
+              </label>
+              <label>
+                Policiales
+                <input type="checkbox" name="policiales" value='ok'>
+              </label>
+              <label>
+                Economía
+                <input type="checkbox" name="economia" value='ok'>
+              </label>
+            </div>
+    
+            <div class="radio">
+              <h3>Genero</h3>
+              <label>
+                Femenino
+                <input type="radio"name='genero' value="femenino">
+              </label>
+              <label>
+                Masculino
+                <input type="radio"name='genero' value="masculino">
+              </label>
+              <label>
+                Autopercibido
+                <input type="radio"name='genero' value="autop">
+              </label>
+              
+            </div>
+    
+            <div class="localidad">
+              <h3>Selecciona localidad</h3>
+              <select name="localidad" id="">
+                <option value="01">CABA</option>
+                <option value="02">Vicente Lopez</option>
+                <option value="03">Merlo</option>
+                <option value="04">Coronda</option>
+                <option value="09">Concordia</option>
+                <option value="14">Rosario</option>
+                <option value="" selected>Seleccionar</option>
+              </select>
+            </div>
+    
+            <div>	
+              <label>
+                Mensaje
+                <textarea name="mensaje"></textarea>
+              </label>
+            </div>
+    
+            <div>
+              <input type="submit" value="Mensajear">
+            </div>
+    
+            
+          </form>
+
+
+		</section> <!-- cierra #content -->
+
+		<aside class="bannerLateral">
+			<span>
+				<img src="img/Accesorios atemporales.gif" alt="banner jacinthe" class="bannerjacinthe">
+
+			</span>
+		</aside>
+
+		<footer class="footer">
+			<p>&copy; 2020 - todos los derechos reservados </p>
+			<p>Desarrollado por Yerimen Iglesias</p>
+		</footer>
+
+	</main>
+
+
+
+</body>
+</html>
