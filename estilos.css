@@ -1,0 +1,121 @@
+*{margin: 0;padding: 0;}
+
+html{
+    font-family: Georgia;
+    font-size: 16px ;
+    box-sizing:border-box;
+    
+}
+.body{
+    background-image: url('../img/6395505-rococo-wallpapers.jpg')
+}
+
+#wrapper{/*main*/
+    width:85%;
+    max-width:1100px;
+    margin:15px auto;
+    }
+    .header{
+        background-color:#D4B8BB;
+        padding: 2%;
+        height: 60px;
+        }
+        .logo{
+            color:white;
+            
+        }
+
+      
+    .navbar{
+        background-color:#D4B8BB;
+        text-align: right;
+        margin-top:10px;
+        padding:1%;
+    }
+    .links{
+        /*los <a> no heredan color ni text-decoration*/
+        color:white;
+        text-decoration: none;
+        }
+
+    /*section */
+    #content{
+        background-color:#E9D1D4;
+        /*
+        Modelo de Caja -> El ancho de un contenedor es:
+        width + paddingX + borderX
+        height + paddingY + borderY   
+        */
+        width:78%;
+        float:left;
+        padding: 2%;
+        box-sizing:border-box;
+    }
+.img-width{
+width: 100%;
+}
+
+.destacado{
+    background-color: white;
+    padding: 2%;
+    width: 100%;
+    box-sizing:border-box;
+    background-image: url('../img/paper.jpg');
+    margin-bottom: 3%;
+}
+
+.articlebase{
+background-color: white;
+padding: 2%;
+width: 50%;
+float:left;
+box-sizing:border-box;
+}
+
+.btn-nota{
+   
+        background-color: #E9D1D4;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin-top: 8px;
+          }
+
+          a {
+            background-color: #e8bec3;
+            transition: background-color .5s;
+            
+          }
+          
+          a:hover {
+            background-color:rgb(206, 220, 159);
+          }
+          
+    /*aside*/
+    .bannerLateral{
+        background-color: #F3EAEB;
+        width:19%;
+        padding:2%;
+        float:right;
+        box-sizing:border-box;
+        height:550px;
+        
+    }
+
+    .bannerjacinthe{
+ width: 100%;
+    }
+    .footer{
+        clear:both;
+        background-color:#E9D1D4;
+        color: rgb(62, 62, 63);
+        text-align: center;
+        padding: 2%;
+        scroll-margin-top: 9px;
+        }
+
+ 
